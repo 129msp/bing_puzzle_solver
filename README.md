@@ -74,10 +74,10 @@ Want to run this project locally? Follow these steps:
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/129msp/bing-puzzle-solver.git
+git clone https://github.com/129msp/bing_puzzle_solver
 
 # 2. Navigate to the project folder
-cd bing-puzzle-solver
+cd bing_puzzle_solver
 
 # 3. Install dependencies
 pip install pyautogui
