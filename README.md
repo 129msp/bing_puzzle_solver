@@ -24,18 +24,18 @@
 
 **Bing Puzzle Solver** is a desktop application that automatically solves the **8-puzzle (3×3 sliding puzzle)** and clicks the tiles on screen for you. It uses the **A\* search algorithm** with Manhattan Distance heuristic to find the optimal solution, then executes it via **PyAutoGUI** — either blazing fast or with human-like behavior.
 
-> Made by **Stephan** — PyAutoGUI Edition
+> Made by **129msp** — PyAutoGUI Edition
 
 ---
 
 ## 🌟 Features
 
-- 🔍 **A\* Solver** — Finds the shortest solution using Manhattan Distance heuristic
-- 🖱️ **Auto-click** — Moves & clicks tiles on screen automatically via PyAutoGUI
-- 📍 **Smart coordinate capture** — Hover mouse to puzzle corners, no clicking needed
-- ✅ **Solvability check** — Validates puzzle state before running (inversion parity)
-- 📋 **Live log panel** — Real-time step-by-step execution feedback
-- 🎨 **Modern dark UI** — Clean dark-themed interface built with Tkinter
+- 🔍 **A\* Solver**: Finds the shortest solution using Manhattan Distance heuristic
+- 🖱️ **Auto-click**: Moves & clicks tiles on screen automatically via PyAutoGUI
+- 📍 **Smart coordinate capture**: Hover mouse to puzzle corners, no clicking needed
+- ✅ **Solvability check**: Validates puzzle state before running (inversion parity)
+- 📋 **Live log panel**: Real-time step-by-step execution feedback
+- 🎨 **Modern dark UI**: Clean dark-themed interface built with Tkinter
 
 ---
 
@@ -56,7 +56,7 @@
 
 | Mode | Description |
 |------|-------------|
-| ⚡ **God Mode** | Fast clicks with minimal jitter — solves in seconds |
+| ⚡ **God Mode** | Fast clicks with minimal jitter, solves in seconds |
 | 🧑 **Human Mode** | Simulates natural behavior: slow mouse, random pauses, hesitation |
 
 ---
@@ -98,7 +98,7 @@ python bing_puzzle_solver.py
 
 ## 🖥️ How to Use
 
-**Step 1 — Enter puzzle state**
+**Step 1: Enter puzzle state**
 Read tiles from **top-left → bottom-right** and fill in the 9 input boxes. Use `0` for the empty tile.
 
 ```
@@ -109,13 +109,13 @@ Read tiles from **top-left → bottom-right** and fill in the 9 input boxes. Use
 4 | 7 | _
 ```
 
-**Step 2 — Capture puzzle coordinates**
+**Step 2: Capture puzzle coordinates**
 Click **Capture Top-Left**, hover over the top-left corner of the puzzle on screen *(don't click — just hover)*, and wait 3 seconds. Repeat for the bottom-right corner.
 
-**Step 3 — Choose execution mode**
+**Step 3: Choose execution mode**
 Select **God Mode** for speed or **Human Mode** for natural-looking behavior.
 
-**Step 4 — Solve!**
+**Step 4: Solve!**
 Click **Solve Puzzle** and watch the tiles get clicked automatically. Monitor progress in the live log panel.
 
 ---
@@ -134,7 +134,7 @@ bing-puzzle-solver/
 
 - **Emergency stop**: Move mouse to the **top-left corner of your screen** to abort execution instantly (`pyautogui.FAILSAFE = True`)
 - Make sure the puzzle window is **visible and not minimized** while the solver runs
-- **Human Mode is intentionally slow** — that's the point 😄
+- **Human Mode is intentionally slow** (that's the point) 😄
 
 ---
 
@@ -148,7 +148,7 @@ Have a question or want to collaborate? Feel free to reach out!
 
 <div align="center">
 
-Made with ❤️ by **Stephan**
+Made with ❤️ by **129msp**
 
 ⭐ If you find this useful, consider giving it a star!
 
